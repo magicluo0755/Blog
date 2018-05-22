@@ -1,2 +1,2 @@
-# my-hugo-blog
-个人hugo静态博客
+个人静态博客
+url: http://magicluo.com
