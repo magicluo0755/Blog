@@ -40,9 +40,8 @@ desc = "Insight throught the Great Wall to the world"
   #instagram = "magicluo0755"
   #weibo = "magicluo0755"
 
-  
 [[menu.main]]
-    identifier = "Cloud Native"
+    identifier = "Cloud-Native"
     name = "Cloud-Native"
     weight = 1
 	
@@ -51,7 +50,7 @@ desc = "Insight throught the Great Wall to the world"
     name = "container"
     url = "categories/container"
     weight = 1
-
+		
 [[menu.main]]
     parent = "Cloud-Native"
     name = "kubernetes"
@@ -62,6 +61,12 @@ desc = "Insight throught the Great Wall to the world"
     parent = "Cloud-Native"
     name = "Cloud Native"
     url = "categories/cloud-native"
+    weight = 3
+
+[[menu.main]]
+    parent = "Cloud-Native"
+    name = "Microservices"
+    url = "categories/microservices"
     weight = 3
 
 [[menu.main]]
@@ -79,7 +84,7 @@ desc = "Insight throught the Great Wall to the world"
 [[menu.main]]
     identifier = "Microservices"
     name = "Microservices"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     parent = "Microservices"
@@ -99,6 +104,7 @@ desc = "Insight throught the Great Wall to the world"
     url = "categories/istio"
     weight = 3
 
+
 [[menu.main]]
     identifier = "iPaaS"
     name = "iPaaS"
@@ -106,7 +112,7 @@ desc = "Insight throught the Great Wall to the world"
 
 [[menu.main]]
     parent = "iPaaS"
-    name = "Apache Camel"
+    name = "Apache-Camel"
     url = "categories/camel"
     weight = 1
 
@@ -117,10 +123,11 @@ desc = "Insight throught the Great Wall to the world"
     weight = 2
 
 [[menu.main]]
-    name = "Cooking"
+    name = "cooking"
     url = "categories/cooking"
     weight = 4
-	
+
+
 [[menu.main]]
     name = "About"
     url = "about"
