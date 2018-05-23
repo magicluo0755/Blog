@@ -2,8 +2,8 @@
 date: "2017-05-20T20:34:54+08:00"
 title:  "About me"
 tags: ["me"]
-subtitle: "罗先桥"
-description: "Laurence Luo(罗先桥) - Cloud Native"
+subtitle: "老罗"
+description: "Laurence Luo(老罗) - Cloud Native"
 nocomment: true
 postmeta: false
 notoc: true
@@ -13,7 +13,7 @@ bigimg: [{src: "https://res.cloudinary.com/jimmysong/image/upload/images/dark-si
 
 ### Info
 
-- Laurence Luo（罗先桥）
+- Laurence Luo（老罗）
 - ShenZhen, China 
 - Major in Software Engineering
 - Career
