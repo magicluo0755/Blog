@@ -15,9 +15,9 @@ set t=%time:~0,8%
 
 set  commitmsg=rebuidling site %d% %t%
 
-echo
+echo 
 echo commit changes to https://github.com/magicluo0755/my-hugo-blog.git [Done]
-echo
+echo 
 git add -A
 git commit -m "%commitmsg%"
 git push origin master
@@ -31,8 +31,8 @@ cd %HUGO_SITECODE_ROOT%
 
 hugo --theme=beautifulhugo --destination=%HUGO_SITE_ROOT%
 
-echo
-echo Build site. [Done]
 echo 
+echo Build site. [Done]
+echo  
 
 pause
