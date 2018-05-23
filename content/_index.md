@@ -1,0 +1,1 @@
+[Laurence Luo(罗先桥)](/about) is a **Developer Advocate** working at [Aupsic Middware](https://www.apusic.com/)(金蝶中间件), also a Gopher, open source enthusiast, [Kubernetes](https://kubernetes.io), [Hugo](https://gohugo.io) fans. 

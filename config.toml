@@ -1,0 +1,134 @@
+baseurl = "https://laurenceluo.io/"
+DefaultContentLanguage = "en"
+hasCJKLanguage = true
+languageCode = "zh-cn"
+title = "Laurence Luo"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = false
+pygmentCodeFences = true
+#googleAnalytics = "XXX"
+
+[Params]
+hello = "Hi,I'm Laurence"
+subtitle = "Foucus on Cloud Native/Docker/K8S/Microservices"
+
+dateFormat = "January 2, 2006"
+commit = false
+rss = true
+comments = true
+#sharebutton = true
+#algolia = "d2134c5a8d250e6d3246594240c45201" # API key
+#gcse = "012737790962522169780:fd1izxsfgrs" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+description = "magicluo.com|罗先桥的博客|Cloud Native|Microservices"
+errorpage = "https://res.cloudinary.com/jimmysong/image/upload/images/404-not-found-cat.png"
+
+[[Params.bigimg]]
+src = "https://res.cloudinary.com/jimmysong/image/upload/banners/great-wall-01.jpg"
+desc = "Insight throught the Great Wall to the world"
+
+[Author]
+  name = "Laurence Luo(罗先桥)"
+  website = "https://magicluo.com"
+  email = "xqluo2004@163.com"
+  facebook = "magicluo0755"
+  github = "magicluo0755"
+  twitter = "magicluo0755"
+  #linkedin = "magicluo0755"
+  #500px = "magicluo0755"
+  #medium = "magicluo0755"
+  #instagram = "magicluo0755"
+  #weibo = "magicluo0755"
+
+[[menu.main]]
+    identifier = "Cloud-Native"
+    name = "Cloud-Native"
+    weight = 1
+	
+[[menu.main]]
+    parent = "Cloud-Native"
+    name = "container"
+    url = "categories/container"
+    weight = 1
+		
+[[menu.main]]
+    parent = "Cloud-Native"
+    name = "kubernetes"
+    url = "categories/kubernetes"
+    weight = 2
+    
+[[menu.main]]
+    parent = "Cloud-Native"
+    name = "Cloud Native"
+    url = "categories/cloud-native"
+    weight = 3
+
+[[menu.main]]
+    parent = "Cloud-Native"
+    name = "Microservices"
+    url = "categories/microservices"
+    weight = 3
+
+[[menu.main]]
+    parent = "Cloud-Native"
+    name = "DevOps"
+    url = "categories/devops"
+    weight = 4
+
+[[menu.main]]
+    parent = "Cloud-Native"
+    name = "Serverless"
+    url = "categories/serverless"
+    weight = 5
+
+[[menu.main]]
+    identifier = "Microservices"
+    name = "Microservices"
+    weight = 3
+
+[[menu.main]]
+    parent = "Microservices"
+    name = "spring cloud"
+    url = "categories/spring-cloud"
+    weight = 1
+
+[[menu.main]]
+    parent = "Microservices"
+    name = "service mesh"
+    url = "categories/service-mesh"
+    weight = 2
+
+[[menu.main]]
+    parent = "Microservices"
+    name = "istio"
+    url = "categories/istio"
+    weight = 3
+
+
+[[menu.main]]
+    identifier = "iPaaS"
+    name = "iPaaS"
+    weight = 3
+
+[[menu.main]]
+    parent = "iPaaS"
+    name = "Apache-Camel"
+    url = "categories/camel"
+    weight = 1
+
+[[menu.main]]
+    parent = "iPaaS"
+    name = "Mule ESB"
+    url = "categories/mule"
+    weight = 2
+
+[[menu.main]]
+    name = "cooking"
+    url = "categories/cooking"
+    weight = 4
+
+
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 5
