@@ -4,7 +4,7 @@
 @REM All Rights Reserved.
 
 
-rem echo off
+@echo off
 echo Deploying updates to Github
 
 set HUGO_SITECODE_ROOT=%cd%
