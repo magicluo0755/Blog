@@ -1,5 +1,5 @@
 ---
-baseurl: "https://magicluo.com/"
+baseurl: "http://magicluo.com/"
 DefaultContentLanguage: "zh-cn"
 hasCJKLanguage: true
 languageCode: "zh-cn"
