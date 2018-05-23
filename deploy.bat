@@ -7,12 +7,11 @@
 @echo off
 echo Deploying updates to Github
 
-set HUGO_SITE_ROOT=%cd%
-echo HUGO_SITE_ROOT:  %HUGO_SITE_ROOT%
+set HUGO_SITECODE_ROOT=%cd%
+echo HUGO_SITECODE_ROOT:  %HUGO_SITECODE_ROOT%
 
 set d=%date:~0,10%
 set t=%time:~0,8%
-
 set  commitmsg=rebuidling site %d% %t%
 
 REM commit changes to https://github.com/magicluo0755/my-hugo-blog.git
@@ -21,17 +20,34 @@ git add -A
 git commit -m "%commitmsg%"
 git push origin master
 
-REM Build the site project
+echo Commit site's code changes to github [Done] !
 
-hugo --theme=beautifulhugo
+REM Build the site and commit changes to https://github.com/magicluo0755/magicluo0755.github.io.git. 
+REM Make sure [mgicluo0755.github.io] folder existed,otherwise you need to create it first!
+REM  ---D:\
+REM  |
+REM  ------D:\site_code
+REM  |
+REM  ------D:\site_release [magicluo0755.github.io]
+REM 
+REM "site_code" folder is the local site's code git repo and associted with remote git repo :http://github.com/magicluo0755/my_hugo_blog.git
+REM "site_release" folder is the local site's git repo and associted with remote git repo :http://github.com/magicluo0755/magicluo0755.github.io
 
-cd public
-REM git add -A
-REM git commit -m "%commitmsg%"
+cd ../magicluo.github.io
+set HUGO_SITE_ROOT=%cd%
 
-REM Push source and build repos
-REM git push origin master
+cd %HUGO_SITECODE_ROOT%
 
-cd ../
+REM build site and write files to destination folder
+hugo --theme=beautifulhugo  --destination=%HUGO_SITE_ROOT%
+
+cd %HUGO_SITE_ROOT%
+
+REM commit changes to http://github.com/magicluo0755/magicluo0755.github.io
+git add -A
+git commit -m "%commitmsg%"
+git push origin master
+
+echo Commit site's files changes to github [Done] !
 
 pause
