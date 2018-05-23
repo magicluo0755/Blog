@@ -5,7 +5,7 @@ date: 2018-04-28T20:26:53+08:00
 description: "本文是在 Kubernetes 集群中，使用 Envoy 来做 mesh，来为一个简单的使用 Python 编写的 Flask 应用程序做反向代理和负载均衡。"
 tags: ["kubernetes","envoy","service-mesh"]
 categories: "service-mesh"
-bigimg: [{src: "https://res.cloudinary.com/jimmysong/image/upload/images/2018082402.jpg", desc: "WFC|Beijing|Apr 24,2018"}]
+bigimg: [{src: "http://res.cloudinary.com/magicluo0755/image/upload/v1527094102/img/2018082402.jpg", desc: "WFC|Beijing|Apr 24,2018"}]
 draft: false
 ---
 

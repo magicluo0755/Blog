@@ -5,7 +5,7 @@ tags: ["envoy","service-mesh"]
 categories: "service-mesh"
 description: "本文介绍了 Envoy proxy 中的基本概念、配置与架构解析"
 date: 2018-04-27T17:16:50+08:00
-bigimg: [{src: "https://res.cloudinary.com/jimmysong/image/upload/images/20180425009.jpg", desc: "EAC Hotel square|Hangzhou|Apr 25,2018"}]
+bigimg: [{src: "http://res.cloudinary.com/magicluo0755/image/upload/v1527094101/img/20180425009.jpg", desc: "EAC Hotel square|Hangzhou|Apr 25,2018"}]
 draft: false
 ---
 

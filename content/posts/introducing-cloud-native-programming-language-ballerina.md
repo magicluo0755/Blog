@@ -2,7 +2,7 @@
 title: "云原生编程语言Ballerina介绍"
 subtitle: "编译式强类型基于序列图理念的开源编程语言"
 date: 2018-05-12T23:27:49+08:00
-bigimg: [{src: "https://res.cloudinary.com/jimmysong/image/upload/images/2018042901.jpg", desc: "Taxis Queue|Jinnan|Apr 29,2018"}]
+bigimg: [{src: "http://res.cloudinary.com/magicluo0755/image/upload/v1527094102/img/2018042901.jpg", desc: "Taxis Queue|Jinnan|Apr 29,2018"}]
 draft: false
 tags: ["cloud-native","ballerina"]
 categories: "cloud native"
