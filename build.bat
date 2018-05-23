@@ -7,8 +7,8 @@
 @echo off
 echo Deploying updates to Github
 
-::set HUGO_SITE_ROOT=%cd%
-::echo HUGO_SITE_ROOT:  %HUGO_SITE_ROOT%
+set HUGO_SITECODE_ROOT=%cd%
+echo HUGO_SITECODE_ROOT:  %HUGO_SITE_ROOT%
 
 set d=%date:~0,10%
 set t=%time:~0,8%
@@ -23,7 +23,11 @@ git push origin master
 
 REM Build the site project
 cd ../magicluo0755.github.io
+ehco
 set HUGO_SITE_ROOT=%cd%
+echo HUGO_SITE_ROOT:  %HUGO_SITE_ROOT%
+cd %HUGO_SITECODE_ROOT%
+
 hugo --theme=beautifulhugo --destination=%HUGO_SITE_ROOT%
 
 REM Build site. [Done]
