@@ -122,10 +122,23 @@ desc = "Insight throught the Great Wall to the world"
     url = "categories/mule"
     weight = 2
 
+	
 [[menu.main]]
+    identifier = "life"
+    name = "life"
+    weight = 4
+	
+[[menu.main]]
+    parent="life"
     name = "cooking"
     url = "categories/cooking"
-    weight = 4
+    weight = 1
+
+[[menu.main]]
+    parent="life"
+    name = "sports"
+    url = "categories/sports"
+    weight = 2
 
 
 [[menu.main]]
