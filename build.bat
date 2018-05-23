@@ -23,7 +23,6 @@ git push origin master
 
 REM Build the site project
 cd ../magicluo0755.github.io
-ehco
 set HUGO_SITE_ROOT=%cd%
 echo HUGO_SITE_ROOT:  %HUGO_SITE_ROOT%
 cd %HUGO_SITECODE_ROOT%
