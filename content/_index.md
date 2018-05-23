@@ -1,1 +1,1 @@
-[Laurence Luo(老罗)](/about) is a product managerworking at [Aupsic Middware](https://www.apusic.com/)(金蝶中间件), also a Javaer/Gopher, open source enthusiast, [Kubernetes](https://kubernetes.io), [Hugo](https://gohugo.io) fans. 
+[Laurence Luo(老罗)](/about) is a product manager working at [Aupsic Middware](https://www.apusic.com/)(金蝶中间件), also a Javaer/Gopher, open source enthusiast, [Kubernetes](https://kubernetes.io), [Hugo](https://gohugo.io) fans. 
