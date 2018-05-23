@@ -3,7 +3,7 @@
 @REM Copyright (c) 2018 magicluo.com
 @REM All Rights Reserved.
 
-
-REM Start Hugo server for local preview and debug...
+@echo off
+echo Start Hugo server for preview and debug...
 
 hugo server --theme=beautifulhugo
