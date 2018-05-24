@@ -90,7 +90,7 @@ desc = "Insight throught the Great Wall to the world"
 
 [[menu.main]]
     parent = "微服务"
-    name = "architecture"
+    name = "Architecture"
     url = "categories/spring-cloud"
     weight = 1
 
@@ -113,13 +113,13 @@ desc = "Insight throught the Great Wall to the world"
 
 [[menu.main]]
     parent = "企业集成"
-    name = "Camel"
+    name = "Apache-Camel"
     url = "categories/camel"
     weight = 1
 
 [[menu.main]]
     parent = "企业集成"
-    name = "MuleESB"
+    name = "Mule ESB"
     url = "categories/mule"
     weight = 2
 
