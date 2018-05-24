@@ -20,7 +20,7 @@ comments = true
 #sharebutton = true
 #algolia = "d2134c5a8d250e6d3246594240c45201" # API key
 #gcse = "012737790962522169780:fd1izxsfgrs" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-description = "magicluo.com|罗先桥的博客|Cloud Native|Microservices"
+description = "magicluo.com|老罗的博客|Cloud Native|Microservices"
 errorpage = "https://res.cloudinary.com/jimmysong/image/upload/images/404-not-found-cat.png"
 
 [[Params.bigimg]]
@@ -39,109 +39,108 @@ desc = "Insight throught the Great Wall to the world"
   #medium = "magicluo0755"
   #instagram = "magicluo0755"
   #weibo = "magicluo0755"
+  enableRobotsTXT = true
+  canonifyURLs = true
+
 
 [[menu.main]]
-    identifier = "Cloud-Native"
-    name = "Cloud-Native"
+    name = "首页"
+	url="/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "云原生"
+    name = "云原生"
+    weight = 2
+	
+[[menu.main]]
+    parent = "云原生"
+    name = "Architecture"
+    url = "categories/microservices"
     weight = 1
 	
 [[menu.main]]
-    parent = "Cloud-Native"
-    name = "container"
+    parent = "云原生"
+    name = "Container"
     url = "categories/container"
-    weight = 1
+    weight = 2
 		
 [[menu.main]]
-    parent = "Cloud-Native"
+    parent = "云原生"
     name = "kubernetes"
     url = "categories/kubernetes"
-    weight = 2
-    
-[[menu.main]]
-    parent = "Cloud-Native"
-    name = "Cloud Native"
-    url = "categories/cloud-native"
     weight = 3
 
 [[menu.main]]
-    parent = "Cloud-Native"
-    name = "Microservices"
-    url = "categories/microservices"
-    weight = 3
-
-[[menu.main]]
-    parent = "Cloud-Native"
+    parent = "云原生"
     name = "DevOps"
     url = "categories/devops"
     weight = 4
 
 [[menu.main]]
-    parent = "Cloud-Native"
+    parent = "云原生"
     name = "Serverless"
     url = "categories/serverless"
     weight = 5
-
+	
 [[menu.main]]
-    identifier = "Microservices"
-    name = "Microservices"
+    identifier = "微服务"
+    name = "微服务"
     weight = 3
 
 [[menu.main]]
-    parent = "Microservices"
-    name = "spring cloud"
+    parent = "微服务"
+    name = "architecture"
     url = "categories/spring-cloud"
     weight = 1
 
 [[menu.main]]
-    parent = "Microservices"
-    name = "service mesh"
-    url = "categories/service-mesh"
+    parent = "微服务"
+    name = "Framework"
+    url = "categories/framework"
     weight = 2
 
 [[menu.main]]
-    parent = "Microservices"
-    name = "istio"
-    url = "categories/istio"
-    weight = 3
-
-
-[[menu.main]]
-    identifier = "iPaaS"
-    name = "iPaaS"
+    parent = "微服务"
+    name = "Service-Mesh"
+    url = "categories/svcmesh"
     weight = 3
 
 [[menu.main]]
-    parent = "iPaaS"
-    name = "Apache-Camel"
+    identifier = "企业集成"
+    name = "企业集成"
+    weight = 4
+
+[[menu.main]]
+    parent = "企业集成"
+    name = "Camel"
     url = "categories/camel"
     weight = 1
 
 [[menu.main]]
-    parent = "iPaaS"
-    name = "Mule ESB"
+    parent = "企业集成"
+    name = "MuleESB"
     url = "categories/mule"
     weight = 2
 
+[[menu.main]]
+    identifier = "生活"
+    name = "生活"
+    weight = 5
 	
 [[menu.main]]
-    identifier = "life"
-    name = "life"
-    weight = 4
-	
-[[menu.main]]
-    parent="life"
-    name = "cooking"
+    parent="生活"
+    name = "美食"
     url = "categories/cooking"
     weight = 1
 
 [[menu.main]]
-    parent="life"
-    name = "sports"
+    parent="生活"
+    name = "杂谈"
     url = "categories/sports"
     weight = 2
 
-
 [[menu.main]]
-    name = "About"
+    name = "关于"
     url = "about"
-    weight = 5
+    weight = 6

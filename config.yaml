@@ -3,7 +3,7 @@ baseurl: "http://magicluo.com/"
 DefaultContentLanguage: "zh-cn"
 hasCJKLanguage: true
 languageCode: "zh-cn"
-title: "Laurence Luo" 
+title: "Laurence's Blog" 
 theme: "beautifulhugo"
 metaDataFormat: "yaml"
 subtitle: "I can help you building Cloud Native confidence"
