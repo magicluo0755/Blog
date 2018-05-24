@@ -8,7 +8,7 @@ nocomment: true
 postmeta: false
 notoc: true
 seealso: false
-bigimg: [{src: "https://res.cloudinary.com/jimmysong/image/upload/images/dark-side-of-the-moon.jpg", desc: "Dark Side of the Moon - Pink Floyd"}]
+bigimg: [{src: "http://res.cloudinary.com/magicluo0755/image/upload/v1527094102/img/dark-side-of-the-moon.jpg", desc: "Dark Side of the Moon - Pink Floyd"}]
 ---
 
 ### Info

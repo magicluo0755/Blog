@@ -2,11 +2,12 @@
 title: "云原生编程语言Ballerina介绍"
 subtitle: "编译式强类型基于序列图理念的开源编程语言"
 date: 2018-05-12T23:27:49+08:00
-bigimg: [{src: "https://res.cloudinary.com/jimmysong/image/upload/images/2018042901.jpg", desc: "Taxis Queue|Jinnan|Apr 29,2018"}]
+bigimg: [{src: "http://res.cloudinary.com/magicluo0755/image/upload/v1527094102/img/2018042901.jpg", desc: "Taxis Queue|Jinnan|Apr 29,2018"}]
 draft: false
 tags: ["cloud-native","ballerina"]
 categories: "cloud native"
 ---
+备注：本文转自[jimmysong.io](https://jimmysong.io/posts/introducing-cloud-native-programming-language-ballerina)
 
 当我第一眼看到 [Ballerina](https://ballerina.io) 还真有点惊艳的感觉。Ballerina 这个单词的意思是“芭蕾舞女演员”。我想他们之所以给公司和这们语言起这个名字，可能是希望它成为云原生这个大舞台中，Ballerina 能像一个灵活的芭蕾舞者一样轻松自如吧！
 
