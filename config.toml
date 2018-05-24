@@ -1,5 +1,5 @@
 baseurl = "http://magicluo.com/"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "zh"
 hasCJKLanguage = true
 languageCode = "zh-cn"
 title = "Laurence's Blog"
