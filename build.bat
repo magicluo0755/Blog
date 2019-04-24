@@ -5,31 +5,30 @@
 
 
 @echo off
-echo Deploying updates to Github
+echo Build the Blog sorce code to static HTML pages and push to Github
 
-set HUGO_SITECODE_ROOT=%cd%
-echo HUGO_SITECODE_ROOT:  %HUGO_SITECODE_ROOT%
+set BLOG_CODE_PATH=%cd%
+echo BLOG_CODE_PATH:  %BLOG_CODE_PATH%
 
 set d=%date:~0,10%
 set t=%time:~0,8%
 
-set  commitmsg=rebuidling site %d% %t%
-
+set  commitmsg=生成新文章 %d% %t%
 echo commit changes to https://github.com/magicluo0755/my-hugo-blog.git [Done]
 
 git add -A
 git commit -m "%commitmsg%"
 git push origin master
 
-REM Build the site project
+REM Build the blog to static htmls
 cd ../magicluo0755.github.io
-set HUGO_SITE_ROOT=%cd%
-echo HUGO_SITE_ROOT:  %HUGO_SITE_ROOT%
+set BLOG_PAGES_PATH=%cd%
+echo BLOG_PAGES_PATH:  %BLOG_PAGES_PATH%
 
-cd %HUGO_SITECODE_ROOT%
+cd %BLOG_CODE_PATH%
 
-hugo --theme=beautifulhugo --destination=%HUGO_SITE_ROOT%
+hugo --theme=beautifulhugo --destination=%BLOG_PAGES_PATH%
 
-echo Build site. [Done]
+echo Build done. [Done]
 
 pause
