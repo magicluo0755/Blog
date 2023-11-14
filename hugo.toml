@@ -92,21 +92,18 @@ bio = "有代码洁癖的产品经理"
 
 [params.social]
 #facebook = "johndoe"
-github = "johndoe"
+github = "magicluo0755"
 #gitlab = "johndoe"
 #linkedin = "johndoe"
 rss = true
 #twitter = "johndoe"
-weibo = "johndoe"
-zhihu = "johndoe"
+weibo = "j#"
+zhihu = "#"
 
 [[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
+name = "Laurence"
+url = "https://magicluo.cn"
 
-[[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
 
 # See https://giscus.app/
 [params.giscus]
