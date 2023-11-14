@@ -1,6 +1,6 @@
 @REM !/bin/bat
 @REM 
-@REM Copyright (c) 2018 magicluo.com
+@REM Copyright (c) 2018 magicluo.cn
 @REM All Rights Reserved.
 
 
@@ -14,7 +14,7 @@ set d=%date:~0,10%
 set t=%time:~0,8%
 
 set  commitmsg=生成新文章 %d% %t%
-echo commit changes to https://github.com/magicluo0755/my-hugo-blog.git [Done]
+echo commit changes to https://github.com/magicluo0755/Blog.git [Done]
 
 git add -A
 git commit -m "%commitmsg%"
@@ -27,7 +27,7 @@ echo BLOG_PAGES_PATH:  %BLOG_PAGES_PATH%
 
 cd %BLOG_CODE_PATH%
 
-hugo --theme=beautifulhugo --destination=%BLOG_PAGES_PATH%
+hugo  --destination=%BLOG_PAGES_PATH%
 
 echo Build done. [Done]
 
