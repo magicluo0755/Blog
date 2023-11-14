@@ -1,8 +1,8 @@
 ---
-title : "关于我"
-description : "产品、IT技术、数码，啥都折腾点儿~"
+title : "关于"
+description : "产品、Coding、IT数码，啥都折腾点儿~"
 date : "2019-02-28"
-aliases : ["about-us", "about-hugo", "contact"]
+aliases : ["about-us", "about", "contact"]
 author : "老罗"
 ---
 

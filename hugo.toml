@@ -1,12 +1,12 @@
 baseURL = "http://localhost:1313/"
-title = "LUO's Blog"
+title = "Luo's Blog"
 
 theme = "puppet"
 #themesDir = "../.."
 
 copyright = ""
 defaultContentLanguage = "zh"
-languageCode = "ezh"
+languageCode = "zh"
 paginate = 10
 
 enableEmoji = true
@@ -85,9 +85,10 @@ custom_js = []
 [params.sidebar]
 enable = true
 #gravatarEmail = "xqluo2004@163.com"
-# Overwritten by your gravatar image if `gravatarEmail` is filled
-avatar = "img/home-bg.jpg"
-bio = "老罗的博客站点"
+#Overwritten by your gravatar image if `gravatarEmail` is filled
+#avatar = "img/home-bg.jpg"
+avatar = "img/avatar.jpg"
+bio = "有代码洁癖的产品经理"
 
 [params.social]
 #facebook = "johndoe"
