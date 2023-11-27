@@ -1,6 +1,6 @@
 ---
 author : "老罗"
-title : " [译]什么需要可观测性"
+title : " [译]可观测性的必要性"
 date : 2023-11-27
 description : "本文翻译自Oreilly出版的电子书《Distributed systems Observability》(By Cindy Sridharan)第一章"
 tags : [
