@@ -43,26 +43,46 @@ unsafe = true
 [menu]
 [[menu.main]]
 identifier = "home"
-name = "HOME"
+name = "首页"
 url = "/"
 weight = -100
+
+
 [[menu.main]]
-identifier = "archive"
-name = "ARCHIVE"
-url = "/archive/"
+identifier = "middleware"
+name = "分布式技术"
+url = "/distributed-tech/"
 weight = 10
 
-#[[menu.main]]
-#identifier = "guide"
-#name = "指引"
-#url = "/series/blog-guide/"
-#weight = 20
+[[menu.main]]
+identifier = "consult"
+name = "解决方案"
+url = "/solution/"
+weight = 20
+
+[[menu.main]]
+identifier = "product-pm"
+name = "产品管理"
+url = "/product/"
+weight = 30
+
+[[menu.main]]
+identifier = "nas"
+name = "NAS软路由"
+url = "/nas/"
+weight = 40
+
+[[menu.main]]
+identifier = "talk"
+name = "闲谈"
+url = "/talk/"
+weight = 50
 
 [[menu.main]]
 identifier = "about"
-name = "ABOUT"
+name = "关于我"
 url = "/about/"
-weight = 50
+weight = 60
 
 #[[menu.main]]
 #identifier = "github"
