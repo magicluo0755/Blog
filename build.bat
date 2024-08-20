@@ -3,6 +3,8 @@
 @REM Copyright (c) 2018 magicluo.com
 @REM All Rights Reserved.
 
+chcp 65001
+
 
 @echo off
 echo Build the Blog sorce code to static HTML pages and push to Github
@@ -13,7 +15,7 @@ echo BLOG_CODE_PATH:  %BLOG_CODE_PATH%
 set d=%date:~0,10%
 set t=%time:~0,8%
 
-set  commitmsg=生成新文章 %d% %t%
+set  commitmsg=生成新的文章 %d% %t%
 echo commit changes to https://github.com/magicluo0755/Blog.git [Done]
 
 git add -A
