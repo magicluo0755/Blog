@@ -92,7 +92,7 @@ weight = 60
 
 [params]
 author = "Laurence Luo"
-description = "中年产品大叔的随笔"
+description = "IT技术与数码产品瞎折腾玩家"
 img_404 = "img/404-bg.jpg"
 img_home = "img/home-bg.jpg"
 keywords = "blog,developer,personal"
@@ -108,21 +108,21 @@ enable = true
 #Overwritten by your gravatar image if `gravatarEmail` is filled
 #avatar = "img/home-bg.jpg"
 avatar = "img/avatar.jpg"
-bio = "有代码洁癖的产品经理"
+bio = "IT技术与数码产品瞎折腾玩家"
 
 [params.social]
 #facebook = "johndoe"
 github = "magicluo0755"
 #gitlab = "johndoe"
 #linkedin = "johndoe"
-rss = true
+#rss = true
 #twitter = "johndoe"
-weibo = "j#"
+#weibo = "j"
 zhihu = "#"
 
 [[params.friends]]
 name = "Laurence"
-url = "https://magicluo.cn"
+url = "http://www.magicluo.com"
 
 
 # See https://giscus.app/

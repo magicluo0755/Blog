@@ -1,6 +1,6 @@
 ---
 title: "NAS与软路由"
-description : "群辉、威联通、UNRAID及OpenWRT软路由技术"
+description : "QNAP、Unraid设备及OpenWRT使用技术经验"
 header_img: img/archive-bg.jpg
 short: true
 ---
