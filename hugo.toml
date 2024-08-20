@@ -60,11 +60,11 @@ name = "解决方案"
 url = "/solution/"
 weight = 20
 
-[[menu.main]]
-identifier = "product-pm"
-name = "产品管理"
-url = "/product/"
-weight = 30
+#[[menu.main]]
+#identifier = "product-pm"
+#name = "产品管理"
+#url = "/product/"
+#weight = 30
 
 [[menu.main]]
 identifier = "nas"
@@ -80,7 +80,7 @@ weight = 50
 
 [[menu.main]]
 identifier = "about"
-name = "关于我"
+name = "关于"
 url = "/about/"
 weight = 60
 

@@ -1,25 +1,27 @@
 ---
 title : "关于"
-description : "产品、Coding、IT数码，啥都折腾点儿~"
+description : "IT技术与数码产品瞎折腾玩家"
 date : "2019-02-28"
 aliases : ["about-us", "about", "contact"]
-author : "老罗"
+author : "Laurence"
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Laurence，解决方案架构师。
 
-Hugo makes use of a variety of open source projects including:
+拥有15年以上的中间件软件研发、架构设计、平台产品管理经验。曾在中科院深圳研究院任职，2010年就职金蝶天燕，先后从事中间件产品研发、产品管理、方案咨询等工作。对分布式架构、技术型产品规划与研发管理、解决方案咨询等方面有一定实战心得。
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+### 关注领域
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+* 中间件：Java微服务/分布式消息/缓存/分布式协调
+* 企业集成：iPaaS/API网关
+* 云原生：Kubernetes/ServiceMesh/DevOps
+* 可观测：OpenTelemetry/eBPF
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+### 兴趣爱好
+
+* NAS存储，Unraid/QNAP
+* 软路由OpenWRT
+* 摄影，vlog
+
