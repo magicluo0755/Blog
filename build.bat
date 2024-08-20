@@ -1,6 +1,6 @@
 @REM !/bin/bat
 @REM 
-@REM Copyright (c) 2018 magicluo.cn
+@REM Copyright (c) 2018 magicluo.com
 @REM All Rights Reserved.
 
 
