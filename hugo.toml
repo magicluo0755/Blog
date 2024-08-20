@@ -95,7 +95,7 @@ author = "Laurence Luo"
 description = "IT技术与数码产品瞎折腾玩家"
 img_404 = "img/404-bg.jpg"
 img_home = "img/home-bg.jpg"
-keywords = "blog,developer,personal"
+keywords = "middleware,unraid,openwrt,personal"
 
 useFaviconGenerator = true
 
@@ -117,13 +117,16 @@ github = "magicluo0755"
 #linkedin = "johndoe"
 #rss = true
 #twitter = "johndoe"
-#weibo = "j"
+#weibo = "#"
 zhihu = "#"
 
 [[params.friends]]
-name = "Laurence"
-url = "http://www.magicluo.com"
+name = "OpenWRT"
+url = "https://openwrt.org/"
 
+[[params.friends]]
+name = "Unraid"
+url = "https://unraid.net/"
 
 # See https://giscus.app/
 [params.giscus]
