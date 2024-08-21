@@ -190,7 +190,7 @@ Wyse3040软路由小主机出厂刷入的OP系统的IP为`192.168.1.1`，用户�
 
 3. 在底部【DHCP服务器配置】，配置如下：
 
-   ![wyse3040-openwrt-dhcp](/assets/nas\wyse3040/wyse3040-openwrt-dhcp.png)
+   ![wyse3040-openwrt-dhcp](/assets/nas/wyse3040/wyse3040-openwrt-dhcp.png)
 
    1. 【基本设置】，选择`忽略此接口`，即不由旁路由运行DHCP服务为网络分配IP地址，交由主路由管理。
    2. 【IPv6设置】，路由通告服务、DHCPv6服务、NDP代理 全部选择`已禁用`。
