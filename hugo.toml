@@ -1,5 +1,5 @@
-baseURL = "http://localhost:1313/"
-title = "Luo's Blog"
+baseURL = "http://www.magicluo.com/"
+title = "Laurence's Blog"
 
 theme = "puppet"
 #themesDir = "../.."
@@ -7,7 +7,7 @@ theme = "puppet"
 copyright = ""
 defaultContentLanguage = "zh"
 languageCode = "zh"
-paginate = 10
+paginate = 15
 
 enableEmoji = true
 enableInlineShortcodes = true
