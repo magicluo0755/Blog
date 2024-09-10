@@ -3,7 +3,7 @@ author : "Laurence"
 title : "什么是软路由"
 date : 2024-08-01
 description : "硬路由，软路由，单臂路由，旁路由都是啥？"
-draft：true
+draft: true
 tags : [
     "OpenWRT",
 ]
