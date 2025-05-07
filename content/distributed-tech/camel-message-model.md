@@ -1,8 +1,8 @@
 ---
 author : "老罗"
-title : " Camel的消息模型"
+title : " 1.3 Camel的消息模型"
 date : 2025-05-07
-description : "Apache Camel in Action 2书籍的第1章1.3节的中文翻译"
+description : "《Apache Camel in Action 2nd》第1章1.3节的中文翻译"
 tags : [
     "Camel",
 ]
@@ -78,5 +78,3 @@ Camel 使用两种抽象来建模消息，我们将在本节中介绍：
 在整个路由生命周期中，交换保持不变，但消息可能会发生变化，例如，当消息从一种格式转换为另一种格式时。
 
 我们先讨论了 Camel 的消息模型，然后再介绍架构，因为我们希望你对 Camel 中的消息有扎实的理解。毕竟，Camel 最重要的功能是路由消息。现在你已经为学习更多关于 Camel 及其架构的内容做好了充分准备。
-
-
