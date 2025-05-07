@@ -94,7 +94,7 @@ Camel 提供了超过 280 种组件的广泛库。这些组件使 Camel 能够�
 
 **企业集成模式**
 
-尽管集成问题各不相同，Gregor Hohpe 和 Bobby Woolf 注意到许多问题及其解决方案却非常相似。他们在《企业集成模式》（Addison-Wesley, 2003）一书中对这些问题进行了分类，这本书是每位集成专业人士的必读之作[www.enterpriseintegrationpatterns.com]（www.enterpriseintegrationpatterns.com）。如果你还没读过，我们强烈推荐你阅读。至少，它能帮助你更快、更轻松地理解 Camel 的概念。
+尽管集成问题各不相同，Gregor Hohpe 和 Bobby Woolf 注意到许多问题及其解决方案却非常相似。他们在《企业集成模式》（Addison-Wesley, 2003）一书中对这些问题进行了分类，这本书是每位集成专业人士的必读之作[www.enterpriseintegrationpatterns.com](www.enterpriseintegrationpatterns.com)。如果你还没读过，我们强烈推荐你阅读。至少，它能帮助你更快、更轻松地理解 Camel 的概念。
 
 企业集成模式（EIPs）之所以有用，不仅因为它们为特定问题提供了经过验证的解决方案，还因为它们有助于定义和沟通问题本身。模式具有已知的语义，这使得问题沟通变得更加容易。Camel 高度基于 EIPs。尽管 EIPs 描述了集成问题和解决方案，并提供了通用词汇，但这些词汇并未形式化。Camel 试图通过提供一种描述集成解决方案的语言来弥补这一差距。《企业集成模式》中描述的模式与 Camel 的领域特定语言（DSL）几乎是一一对应的。
 
@@ -226,7 +226,7 @@ doc  examples  lib  LICENSE.txt  NOTICE.txt  README.txt
 
 不过，从现在开始，我们将完全不使用发行版。本书源代码中的所有示例都使用 Apache Maven，这意味着 Camel 库会自动为你下载——无需确保 Camel 发行版的库在类路径上。
 
-你可以通过托管源代码的 GitHub 项目[https://github.com/camelinaction/camelinaction2]（https://github.com/camelinaction/camelinaction2）获取本书的源代码。
+你可以通过托管源代码的 GitHub 项目[https://github.com/camelinaction/camelinaction2](https://github.com/camelinaction/camelinaction2)获取本书的源代码。
 
 你将查看的第一个示例可以视为集成的“hello world”：文件路由。假设你需要从一个目录（data/inbox）读取文件，以某种方式处理它们，然后将结果写入另一个目录（data/outbox）。为了简单起见，你将跳过处理步骤，因此输出仅仅是原始文件的副本。图 1.4 展示了这一过程。
 
@@ -307,7 +307,7 @@ public class FileCopierWithCamel {
 
 Camel 中的路由定义方式使其在阅读时流畅易懂。这个路由可以这样理解：从文件位置 data/inbox 消费消息，设置 noop 选项，然后发送到文件位置 data/outbox。noop 选项告诉 Camel 保持源文件不变。如果不使用此选项，文件将被移动。大多数从未见过 Camel 的人都能理解这个路由的作用。你可能还想注意，排除样板代码后，你仅用两行 Java 代码就创建了一个文件轮询路由 ❶。
 
-要运行这个示例，你需要从 Maven 网站 http://maven.apache.org/download.html 下载并安装 Apache Maven。安装并配置好 Maven 后，打开终端，进入本书源代码的 chapter1/file-copy 目录。如果在这里执行目录列表命令，你会看到以下内容：
+要运行这个示例，你需要从Maven网站 http://maven.apache.org/download.html 下载并安装 Apache Maven。安装并配置好 Maven 后，打开终端，进入本书源代码的 chapter1/file-copy 目录。如果在这里执行目录列表命令，你会看到以下内容：
 
 - **data**：包含 inbox 目录，里面有一个名为 message1.xml 的文件。
 
