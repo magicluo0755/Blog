@@ -1,8 +1,8 @@
 ---
 author : "老罗"
-title : " 1.初识Camel"
+title : " 初识Camel"
 date : 2025-05-07
-description : "Apache Camel in Action 2书籍的第一章中文翻译"
+description : "Apache Camel in Action 2书籍的第1章1.1至1.4节中文翻译"
 tags : [
     "Camel",
 ]

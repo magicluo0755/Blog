@@ -1,8 +1,8 @@
 ---
 author : "老罗"
-title : " 1.5 Camel的消息模型"
+title : " Camel的消息模型"
 date : 2025-05-07
-description : "Apache Camel in Action 2书籍的第一章，1.3节的中文翻译"
+description : "Apache Camel in Action 2书籍的第1章1.3节的中文翻译"
 tags : [
     "Camel",
 ]
