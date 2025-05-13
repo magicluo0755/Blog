@@ -1,4 +1,4 @@
-baseurl = "https://zhaohuabing.com"
+baseurl = "http://www.magicluo.com"
 title = "Laurence Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "zh-cn"
@@ -42,9 +42,7 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar 设置
-  #sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
   sidebar_about_description = "IT技术与数码产品瞎折腾玩家"
-  #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
   sidebar_avatar = "img/avatar.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = true 
