@@ -5,7 +5,7 @@ description : "Apache Camel in Action 2书籍的第1章1.1至1.4节中文翻译"
 excerpt : "Apache Camel in Action 2书籍的第1章1.1至1.4节中文翻译"
 author : "Laurence"
 date : 2025-05-06 09:00:00
-image: "img/post-bg-unix-linux.jpg"
+image: "img/post-bg-eip.png"
 tags : 
   - Camel
   - 企业集成
