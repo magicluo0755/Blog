@@ -1,0 +1,149 @@
+baseurl = "https://zhaohuabing.com"
+title = "Laurence Blog"
+theme = "hugo-theme-cleanwhite"
+languageCode = "zh-cn"
+preserveTaxonomyNames = true
+hasCJKLanguage = true
+
+[services]
+  # Enable comments by entering your Disqus shortname
+  [services.disqus]
+    shortname = ""
+  [services.googleAnalytics]
+    id = ""
+
+[pagination]
+  pagerSize = 5 # frontpage pagination
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
+[params]
+  header_image = "img/home-bg.jpg"
+  SEOTitle = "Laurence 博客 | Laurence Blog"
+  description = "Laurence，数字化转型背景下的IT民工, 开源爱好者，IT数码与摄影爱好者 | 这里是 Laurence 的博客，与你分享趣闻。"
+  keyword = "Laurence, Laurence的网络日志, Laurence的博客, Laurence Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, 企业集成, EAI, 微服务, Microservice，iPaaS"
+
+  upstreamAttribution = true
+
+  image_404 = "img/404-bg.jpg"
+  title_404 = "没有相关内容，再等等 :("
+  omit_categories = false
+
+  # leancloud storage for page view counter
+  page_view_counter = false
+  leancloud_app_id = ""
+  leancloud_app_key = ""
+
+  # algolia site search
+  algolia_search = true
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
+
+  # Sidebar 设置
+  #sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
+  sidebar_about_description = "IT技术与数码产品瞎折腾玩家"
+  #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "img/avatar.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true 
+  featured_condition_size = 1 
+
+  # Baidu站点分析
+  ba_track_id = ""
+  
+  # We need a proxy to access Disqus api in China
+  # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
+  disqus_proxy = ""
+  disqus_site = ""
+
+  # Twikoo comments
+  # Follow https://twikoo.js.org/ to set up your own env_id
+  twikoo_env_id = ""
+
+  # Artalk comments
+  # Follow https://artalk.js.org/ to set up your own server
+  artalk_enable = true
+  artalk_server = "https://xxx.xxx.com"
+  artalk_site = "xxx blog"
+
+  #是否开启微信和支付宝打赏
+  # reward = true
+  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+
+  #开启友情链接
+  friends = true
+  
+  #书签链接
+  bookmarks = false
+  
+  #开启个人简介
+  about_me = true
+
+  # Include any custom CSS and/or JS files, url or relative to /static folder
+  #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
+  #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
+
+  [params.social]
+  rss            = true 
+  email          = "luo.xianq@gmail.com"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  #twitter       = "full profile url in twitter"
+  #linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
+  #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  #instagram     = "full profile url in instagram"
+  github         = "https://github.com/magicluo0755"
+  wechat         = "your wechat qr code image"
+  #medium        = "full profile url in medium"
+  #slack         = "full workspace url in slack"
+  #pinterest     = "full profile url in pinterest"
+  #reddit        = "full profile url in reddit"
+  #gitlab        = "full profile url in gitlab"
+  #mastodon      = "full profile url in mastodon"
+  #keybase       = "full profile url in keybase"
+  #xing          = "https://www.xing.com/profile/yourxingid"
+  #git           = "full profile url for git user"
+  
+  # 友情链接
+  [[params.friend_link]]
+  title = "openWRT"
+  href =  "https://openwrt.org/"
+
+  [[params.friend_link]]
+  title =  "Unraid"
+  href =  "https://unraid.net/"
+
+  #[[params.bookmark_link]]
+  #title =  "Unraid"
+  #href =  "https://unraid.net/"
+  
+  #额外的菜单项
+  [[params.additional_menus]]
+  title =  "存档"
+  href =  "/archive/"
+  
+  [[params.additional_menus]]
+  title =  "关于我"
+  href =  "/about/"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"] 
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    startLevel = 1
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
