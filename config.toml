@@ -5,6 +5,11 @@ languageCode = "zh-cn"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
 
+[frontmatter]
+date = ["date", ":fileModTime", "publishDate"]  
+timeZone = "Asia/Shanghai" 
+enableGitInfo = true      
+
 [services]
   # Enable comments by entering your Disqus shortname
   [services.disqus]
