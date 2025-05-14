@@ -1,6 +1,6 @@
 ---
 layout: post
-title : " 可观测性的三大支柱(指标，日志与追踪)"
+title : "可观测性的三大支柱"
 description : "本文翻译自Oreilly出版的电子书《Distributed systems Observability》(By Cindy Sridharan)第四章"
 excerpt: "本文翻译自Oreilly出版的电子书《Distributed systems Observability》(By Cindy Sridharan)第四章"
 author : "Laurence"
