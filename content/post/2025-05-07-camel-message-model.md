@@ -1,26 +1,23 @@
 ---
 layout: post
-title: "1.3 Camel的消息模型"
-description : "《Apache Camel in Action 2nd》第1章1.3节的中文翻译"
-excerpt : "《Apache Camel in Action 2nd》第1章1.3节的中文翻译"
-author: "Laurence"
-date: 2025-05-07 09:00:00
-image: "img/post-bg-eip.png"
-tags: 
-  - Camel
-  - 企业集成
-  - 译文
-categories : 
-  - 书籍翻译
+title: 1.3 Camel的消息模型
+description: 《Apache Camel in Action 2nd》第1章1.3节的中文翻译
+excerpt: 《Apache Camel in Action 2nd》第1章1.3节的中文翻译
+author: Laurence
+date: 2025-05-07T09:00:00.000Z
+image: img/post-bg-eip.png
+tags: [Camel, 企业集成, 译文]
+categories: [书籍翻译]
 showtoc: true
 ---
 
 Camel 使用两种抽象来建模消息，我们将在本节中介绍：
-- org.apache.camel.Message：Camel 中承载和路由数据的基本实体。
 
-- org.apache.camel.Exchange：Camel 中用于消息交换的抽象。这种消息交换包含一个输入消息（in message），以及作为回复的输出消息（out message）。
+-   org.apache.camel.Message：Camel 中承载和路由数据的基本实体。
 
-我们将首先介绍消息，以便你了解 Camel 中数据建模和承载的方式。然后我们将展示 Camel 如何通过交换（exchange）来建模“对话”。
+-   org.apache.camel.Exchange：Camel 中用于消息交换的抽象。这种消息交换包含一个输入消息（in message），以及作为回复的输出消息（out message）。
+
+我们将首先介绍消息，以便你了解 Camel 中数据建模和承载的方式。然后我们将展示 Camel 如何通过交换（exchange）来建模"对话"。
 
 ## 消息
 
@@ -52,30 +49,28 @@ Camel 使用两种抽象来建模消息，我们将在本节中介绍：
 
 在 Camel 中，交换（`exchange`）是消息在路由过程中使用的容器。交换还支持系统之间的各种交互类型，也称为消息交换模式（`MEPs`）。`MEPs` 用于区分单向消息和请求-响应消息风格。Camel 交换持有一个模式属性，可以是以下之一：
 
-- **InOnly**：单向消息（也称为事件消息）。例如，JMS 消息通常是单向消息。
+-   **InOnly**：单向消息（也称为事件消息）。例如，JMS 消息通常是单向消息。
 
-- **InOut**：请求-响应消息。例如，基于 HTTP 的传输通常是请求-响应模式：客户端提交 Web 请求，等待服务器的回复。
+-   **InOut**：请求-响应消息。例如，基于 HTTP 的传输通常是请求-响应模式：客户端提交 Web 请求，等待服务器的回复。
 
 图 1.7 展示了 Camel 中交换的内容。
 
 ![Exchange](/assets/camel/c01_07.png)
 图1.7 Camel 交换包含一个 ID、MEP（消息交换模式）、异常和属性。它还有一个输入消息（in message）用于存储传入消息，以及一个输出消息（out message）用于存储回复。
 
-
-
 让我们更详细地看看图 1.7 中的元素：
 
-- **`Exchange ID`**：一个唯一标识交换的 ID，Camel 会自动生成这个唯一 ID。
+-   **`Exchange ID`**：一个唯一标识交换的 ID，Camel 会自动生成这个唯一 ID。
 
-- **`MEP`**：表示使用的是 `InOnly` 还是`InOut` 消息风格的模式。当模式为`InOnly` 时，交换包含一个输入消息（in message）。对于`InOut` 模式，还存在一个输出消息（out message），包含对调用者的回复消息。
+-   **`MEP`**：表示使用的是 `InOnly` 还是`InOut` 消息风格的模式。当模式为`InOnly` 时，交换包含一个输入消息（in message）。对于`InOut` 模式，还存在一个输出消息（out message），包含对调用者的回复消息。
 
-- **异常（`Exception`）**：如果在路由过程中任何时候发生错误，异常字段中将设置一个 Exception。
+-   **异常（`Exception`）**：如果在路由过程中任何时候发生错误，异常字段中将设置一个 Exception。
 
-- **属性（`Properties`）**：类似于消息头部，但它们在整个交换的生命周期内持续存在。属性用于存储全局级别的信息，而消息头部特定于某个特定消息。Camel本身在路由过程中会向交换添加各种属性。作为开发者，你可以在交换生命周期的任何时候存储和检索属性。
+-   **属性（`Properties`）**：类似于消息头部，但它们在整个交换的生命周期内持续存在。属性用于存储全局级别的信息，而消息头部特定于某个特定消息。Camel本身在路由过程中会向交换添加各种属性。作为开发者，你可以在交换生命周期的任何时候存储和检索属性。
 
-- **输入消息（`In message`）**：这是必填的输入消息，包含请求消息。
+-   **输入消息（`In message`）**：这是必填的输入消息，包含请求消息。
 
-- **输出消息（`Out message`）**：这是可选消息，仅在 MEP 为 `InOut` 时存在。输出消息包含回复消息。
+-   **输出消息（`Out message`）**：这是可选消息，仅在 MEP 为 `InOut` 时存在。输出消息包含回复消息。
 
 在整个路由生命周期中，交换保持不变，但消息可能会发生变化，例如，当消息从一种格式转换为另一种格式时。
 
