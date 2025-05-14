@@ -8,6 +8,7 @@ date : 2023-11-15 09:00:00
 image: "img/post-bg-unix-linux.jpg"
 tags : 
   - 可观测性
+  - 原创
 categories : 
   - 分布式架构
 showtoc : true
