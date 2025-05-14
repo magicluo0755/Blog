@@ -91,22 +91,9 @@ home = ["HTML", "RSS", "Algolia"]
   [params.social]
   rss            = true 
   email          = "luo.xianq@gmail.com"
-  #facebook      = "full profile url in facebook"
-  #googleplus    = "full profile url in googleplus"
-  #twitter       = "full profile url in twitter"
-  #linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
-  #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
-  #instagram     = "full profile url in instagram"
   github         = "https://github.com/magicluo0755"
-  wechat         = "your wechat qr code image"
-  #medium        = "full profile url in medium"
+  wechat         = "/img/wechat_qrcode.jpg"
   #slack         = "full workspace url in slack"
-  #pinterest     = "full profile url in pinterest"
-  #reddit        = "full profile url in reddit"
-  #gitlab        = "full profile url in gitlab"
-  #mastodon      = "full profile url in mastodon"
-  #keybase       = "full profile url in keybase"
-  #xing          = "https://www.xing.com/profile/yourxingid"
   #git           = "full profile url for git user"
   
   # 友情链接
