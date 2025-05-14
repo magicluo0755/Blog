@@ -14,7 +14,7 @@ categories :
 showtoc : true
 ---
 
-![Distributed-Systems-Observability](/Distributed-Systems-Observability.jpg)
+![Distributed-Systems-Observability](/assets/tech/Distributed-Systems-Observability.jpg)
 
 > 本文翻译自上述Oreilly出版的电子书《Distributed systems Observability》(By Cindy Sridharan)第一章。
 
