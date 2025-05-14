@@ -1,6 +1,6 @@
 ---
 layout: post
-title : " 监控与可观测行性(译文)"
+title : " 监控与可观测行性"
 description : "本文翻译自Oreilly出版的电子书《Distributed systems Observability》(By Cindy Sridharan)第二章"
 excerpt: "本文翻译自Oreilly出版的电子书《Distributed systems Observability》(By Cindy Sridharan)第二章"
 author : "Laurence"

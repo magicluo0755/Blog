@@ -1,6 +1,6 @@
 ---
 layout: post
-title : " 可观测性的必要性(译文)"
+title : " 可观测性的必要性"
 description : "本文翻译自Oreilly出版的电子书《Distributed systems Observability》(By Cindy Sridharan)第一章"
 excerpt: "本文翻译自Oreilly出版的电子书《Distributed systems Observability》(By Cindy Sridharan)第一章"
 author : "Laurence"

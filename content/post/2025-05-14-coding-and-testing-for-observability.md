@@ -1,6 +1,6 @@
 ---
 layout: post
-title : " 可观测性编码与测试(译文)"
+title : " 可观测性编码与测试"
 description : "本文翻译自Oreilly出版的电子书《Distributed systems Observability》(By Cindy Sridharan)第三章"
 excerpt: "本文翻译自Oreilly出版的电子书《Distributed systems Observability》(By Cindy Sridharan)第三章"
 author : "Laurence"
